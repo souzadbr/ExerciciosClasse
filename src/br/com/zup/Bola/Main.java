@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Bola bolinha = new Bola (1.1, "Vermelha", "Sei lá", 2);
 
-        System.out.println("Carro1: ");
+        System.out.println("Bola1: ");
         System.out.println(bolinha.circunferencia);
         System.out.println(bolinha.cor);
         System.out.println(bolinha.marca);
@@ -16,7 +16,7 @@ public class Main {
 
         Bola bolinha1 = new Bola (2.5, "Azul","Sei não",5);
 
-        System.out.println("Carro2: ");
+        System.out.println("Bola2: ");
         System.out.println(bolinha1.circunferencia);
         System.out.println(bolinha1.cor);
         System.out.println(bolinha1.marca);
