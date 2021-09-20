@@ -5,20 +5,12 @@ import br.com.zup.Bola.Bola;
 public class Main {
 
     public static void main(String[] args) {
-        Bola bolinha = new Bola ();
+        Bola bolinha = new Bola (1.1, "Vermelha", "Sei lá", 2);
 
-        bolinha.cor = "Laranja";
-        bolinha.esporte = "Basquete";
-        bolinha.material = "Borracha";
-        bolinha.peso = 1.0;
-        bolinha.tamanho = 30;
-
+        System.out.println(bolinha.circunferencia);
         System.out.println(bolinha.cor);
-        System.out.println(bolinha.esporte);
-        System.out.println(bolinha.material);
-        System.out.println(bolinha.peso);
-        System.out.println(bolinha.tamanho);
-
+        System.out.println(bolinha.marca);
+        System.out.println(bolinha.velocidade);
     }
 }
 
